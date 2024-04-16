@@ -1,3 +1,4 @@
+import time
 def announce(f):
     def wrapper():
         print("About to run the function...")
